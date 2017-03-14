@@ -5,4 +5,6 @@ We developed this tool to assist in the migration of domain nameserver records f
 
 Note: it doesn't create cPanel user/webhosting accounts. It will only create the DNS Zones!
 
+There is no documentation on obtaining a GoDaddy API key (should be self explanatory), nor using the WHM API (again, Google!).
+
 Questions? support@considerit.co.uk
