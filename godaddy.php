@@ -110,9 +110,9 @@ foreach ($domains as &$domain) {
                                 $protocol = $value['protocol'];
                                 $port = $value['port'];
                                 $weight = $value['weight'];
-
-                                if ($name == "@") { $name = $domain; }
-                                if ($data == "@") { $data = $domain; }
+                        
+                                if ($name == "@") { $name = $domain . "."; }
+                                if ($data == "@") { $data = $domain . "."; }
 
                                 switch ($type) {
                                         case "A":
